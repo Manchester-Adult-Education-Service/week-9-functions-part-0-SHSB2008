@@ -21,15 +21,16 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# create a list of items in the cart
 cart = ["apple", "bread", "milk", "eggs"]
+# create a variable showing number of items in the cart
 total_items = len(cart)
-
+# print showing total number of items in the cart
 print(f"You have {total_items} items in your cart")
-
+# loop through list of numbers
 for item in cart:
     print(f"- {item}")
-
+# it will print number of items
 # -------------------------------------------
 # Task 2: Grade Calculator
 # -------------------------------------------
@@ -38,15 +39,15 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+#  Ask user for the test score and convert to integer
 score = int(input("Enter your test score: "))
-
+# check if score is greater than and equal 70 it will pass otherwise fail
 if score >= 70:
     grade = "Pass"
-else:
-    grade = "Fail"
-
-print(f"Your grade: {grade}")
+    else:
+        grade = "Fail"
+# print the message showing the user result
+        print(f"Your grade: {grade}")
 
 # -------------------------------------------
 # Task 3: Password Validator
@@ -78,10 +79,10 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# create a list of random numbers
 numbers = [12, 7, 18, 5, 22, 9, 14]
 even_count = 0
-
+# loop throgh numbers in the list
 for num in numbers:
     if num % 2 == 0:
         even_count = even_count + 1
